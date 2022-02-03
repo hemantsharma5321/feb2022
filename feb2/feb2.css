@@ -1,28 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>timer</title>
-    <link rel="stylesheet" href="feb2.css">
+#container{
+    position: relative;
+    top: 100px;
+    left: 25%;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(199, 166, 230);
     
-</head>
-<body>
-    <div id="container">
-       <center><h1>Timer</h1></center> 
-        <center><h1><span id="min">00</span>
-            <span>m</span>
-            <span>:</span>
-            <span id="sec">00</span>
-            <span>sec</span></h1>
-        </center>
-            <div align="center">
-                <button id="stopbtn">Stop</button>
-                <button id="resumebtn">Resume</button>
-                <button id="resetbtn"> Reset</button>
-            </div>
-    </div>
-    <script src="feb2.js"></script>
-</body>
-</html>
+}
+button{
+    background-color: rgb(238, 97, 214);
+    padding: 10px;
+    border: none;
+    margin: 5px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(1, 1, 12);
+}
